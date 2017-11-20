@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assembly xmlns=" " xmlns:xsi=" " xsi:schemaLocation=" "><!--文件头描述 -->
+    <id>resetPwdUpdateAgent_windows</id>
+    <formats>
+        <format>zip</format>  <!--表示打包出的文件格式，zip表示zip压缩包 -->
+    </formats>
+    <includeBaseDirectory>true</includeBaseDirectory>
+    <baseDirectory>CloudResetPwdUpdateAgent.Windows</baseDirectory>
+    <fileSets>
+        <!-- 文件夹描述，一个<fileSet></fileSet>定义了一个文件夹的目录结构 -->
+        <fileSet>
+            <directory>src/main/scripts</directory>
+            <outputDirectory>/</outputDirectory>
+            <includes>
+                <include>*.bat</include>
+            </includes>
+            <!--调整文件的换行字元；可用lineEnding值：
+                keep   保持原始文件的换行字元（默认值）
+                unix Unix  风格的字元
+                lf  仅仅一个换行符
+                dos  MS-DOS风格的字元
+                crlf   回车后加一个换行符-->
+            <directoryMode>0700</directoryMode>
+            <fileMode>0700</fileMode><!--文件权限-->
+        </fileSet>
+        <fileSet>
+            <directory>src/main/scripts/bin</directory>
+            <outputDirectory>CloudResetPwdUpdateAgent/bin</outputDirectory>
+            <directoryMode>0700</directoryMode>
+            <fileMode>0700</fileMode>
+        </fileSet>
+        <fileSet>
+            <directory>src/main/resources/config</directory>
+            <outputDirectory>CloudResetPwdUpdateAgent/conf</outputDirectory>
+            <includes>
+                <include>resource.properties</include>
+            </includes>
+            <directoryMode>0700</directoryMode>
+            <fileMode>0600</fileMode>
+        </fileSet>
+        <fileSet>
+            <directory>src/main/scripts/conf</directory>
+            <outputDirectory>CloudResetPwdUpdateAgent/conf</outputDirectory>
+            <includes>
+                <include>wrapper.conf</include>
+            </includes>
+            <directoryMode>0700</directoryMode>
+            <fileMode>0600</fileMode>
+        </fileSet>
+        <fileSet>
+            <directory>src/main/scripts/depend</directory>
+            <outputDirectory>CloudResetPwdUpdateAgent/depend</outputDirectory>
+            <directoryMode>0700</directoryMode>
+            <fileMode>0600</fileMode>
+        </fileSet>
+        <fileSet>
+            <directory>src/main/scripts/lib</directory>
+            <outputDirectory>CloudResetPwdUpdateAgent/lib</outputDirectory>
+            <directoryMode>0700</directoryMode>
+            <fileMode>0600</fileMode>
+        </fileSet>
+        <fileSet>
+            <directory>src/main/scripts/logs</directory>
+            <outputDirectory>CloudResetPwdUpdateAgent/logs</outputDirectory>
+            <directoryMode>0700</directoryMode>
+            <fileMode>0600</fileMode>
+        </fileSet>
+    </fileSets>
+    <files>
+        <file>
+            <source>target/CloudResetPwdUpdateAgent.Windows.jar</source>
+            <outputDirectory>CloudResetPwdUpdateAgent/lib</outputDirectory>
+            <destName>resetpwdupdateagent.jar</destName>
+            <fileMode>0644</fileMode>
+        </file>
+    </files>
+    <dependencySets>
+        <dependencySet>
+            <useProjectArtifact>false</useProjectArtifact>
+            <outputDirectory>CloudResetPwdUpdateAgent/lib</outputDirectory>
+        </dependencySet>
+    </dependencySets>
+</assembly>

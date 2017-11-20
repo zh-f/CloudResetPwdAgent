@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Ant-Version: Apache Ant 1.8.2
+Created-By: 1.4.2_19-b04 (Sun Microsystems Inc.)
+Built-By: SYSTEM
+Package: org.tanukisoftware.wrapper
+Extension-Name: wrapper
+Specification-Title: Java Service Wrapper
+Specification-Vendor: Tanuki Software, Ltd.
+Specification-Version: 3.5.32
+Implementation-Title: org.tanukisoftware.wrapper
+Implementation-Vendor: Tanuki Software, Ltd.
+Implementation-Version: 3.5.32
+Main-Class: CloudResetPwdAgent

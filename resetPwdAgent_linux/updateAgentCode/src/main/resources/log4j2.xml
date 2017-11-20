@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration status="ERROR">
+    <appenders>
+        <RollingFile name="RollingFile" fileName="/CloudResetPwdUpdateAgent/logs/resetPwdUpdateAgent.log"
+                     filePattern="/CloudResetPwdUpdateAgent/logs/$${date:yyyy-MM}/app-%d{MM-dd-yyyy}-%i.log.gz">
+            <PatternLayout pattern="%d{yyyy.MM.dd 'at' HH:mm:ss z} %-5level %class{36} %L %M - %msg%xEx%n"/>
+            <SizeBasedTriggeringPolicy size="30 MB" />
+        </RollingFile>
+    </appenders>
+    <loggers>
+        <root level="ERROR">
+            <appender-ref ref="RollingFile"/>
+        </root>
+    </loggers>
+</configuration>

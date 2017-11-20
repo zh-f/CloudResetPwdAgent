@@ -1,0 +1,4 @@
+Manifest-Version: 1.0
+Class-Path: json-20160810.jar log4j-core-2.8.2.jar log4j-api-2.8.2.jar
+Main-Class: CloudResetPwdUpdateAgent
+
