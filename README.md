@@ -1,2 +1,3 @@
-# resetPwdAgent
-Reset CloudOS(Windows and Linux)  password
+# CloudResetPwdAgent
+CloudResetPwdAgent for Resetting CloudOS(Windows and Linux) Password.
+
