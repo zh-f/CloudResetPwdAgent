@@ -17,6 +17,6 @@ https://wrapper.tanukisoftware.com/doc/english/download.jsp
 
 How to download the binary file
 -------------------------------
-http://cn-south-1-cloud-reset-pwd.obs.myhwclouds.com/CloudResetPwdAgent.Windows.zip      (32bit and 64bit for windows)
-http://cn-south-1-cloud-reset-pwd.obs.myhwclouds.com/CloudResetPwdAgent.Linux.32bit.zip  (32bit and 64bit for Linux)
-http://cn-south-1-cloud-reset-pwd.obs.myhwclouds.com/CloudResetPwdAgent.Linux.64bit.zip  (64bit and 64bit for Linux)
+32bit and 64bit for windows: http://cn-south-1-cloud-reset-pwd.obs.myhwclouds.com/CloudResetPwdAgent.Windows.zip
+32bit and 64bit for Linux:   http://cn-south-1-cloud-reset-pwd.obs.myhwclouds.com/CloudResetPwdAgent.Linux.32bit.zip
+64bit and 64bit for Linux:   http://cn-south-1-cloud-reset-pwd.obs.myhwclouds.com/CloudResetPwdAgent.Linux.64bit.zip
