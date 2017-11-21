@@ -35,11 +35,11 @@ You can build it into jar and run it with JRE (Java Runtime Environment), also y
 How to download the binary file
 -------------------------------
 
-http://cn-south-1-cloud-reset-pwd.obs.myhwclouds.com/CloudResetPwdAgent.Windows.zip
+http://cn-south-1-cloud-reset-pwd.obs.myhwclouds.com/windows/CloudResetPwdAgent.Windows.zip
 
-http://cn-south-1-cloud-reset-pwd.obs.myhwclouds.com/CloudResetPwdAgent.Linux.32bit.zip
+http://cn-south-1-cloud-reset-pwd.obs.myhwclouds.com/linux/32/CloudResetPwdAgent.Linux.zip
 
-http://cn-south-1-cloud-reset-pwd.obs.myhwclouds.com/CloudResetPwdAgent.Linux.64bit.zip
+http://cn-south-1-cloud-reset-pwd.obs.myhwclouds.com/linux/64/CloudResetPwdAgent.Linux.zip
 
 Distributed license
 -------------------
