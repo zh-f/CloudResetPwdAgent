@@ -24,7 +24,9 @@ How to download the binary file
 -------------------------------
 
 http://cn-south-1-cloud-reset-pwd.obs.myhwclouds.com/CloudResetPwdAgent.Windows.zip
+
 http://cn-south-1-cloud-reset-pwd.obs.myhwclouds.com/CloudResetPwdAgent.Linux.32bit.zip
+
 http://cn-south-1-cloud-reset-pwd.obs.myhwclouds.com/CloudResetPwdAgent.Linux.64bit.zip
 
 Distributed license
