@@ -17,12 +17,12 @@ http://www.oracle.com/technetwork/java/javase/downloads/server-jre8-downloads-21
 https://wrapper.tanukisoftware.com/doc/english/download.jsp
 
 
-Grabbing the latest source
---------------------------
+Grabbing the latest source code
+-------------------------------
 
 https://github.com/archerslaw/CloudResetPwdAgent
 
-Downloading stable versions
+Downloading latest versions
 ---------------------------
 
 https://github.com/archerslaw/CloudResetPwdAgent/archive/master.zip
