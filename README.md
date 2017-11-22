@@ -35,11 +35,11 @@ You can build it into jar and run it with JRE (Java Runtime Environment), also y
 How to download the binary file
 -------------------------------
 
-http://cn-south-1-cloud-reset-pwd.obs.myhwclouds.com/windows/reset_pwd_agent/CloudResetPwdAgent.Windows.zip
+http://cn-south-1-cloud-reset-pwd.obs.myhwclouds.com/windows/reset_pwd_agent/CloudResetPwdAgent.zip
 
-http://cn-south-1-cloud-reset-pwd.obs.myhwclouds.com/linux/32/reset_pwd_agent/CloudResetPwdAgent.Linux.zip
+http://cn-south-1-cloud-reset-pwd.obs.myhwclouds.com/linux/32/reset_pwd_agent/CloudResetPwdAgent.zip
 
-http://cn-south-1-cloud-reset-pwd.obs.myhwclouds.com/linux/64/reset_pwd_agent/CloudResetPwdAgent.Linux.zip
+http://cn-south-1-cloud-reset-pwd.obs.myhwclouds.com/linux/64/reset_pwd_agent/CloudResetPwdAgent.zip
 
 Distributed license
 -------------------
@@ -49,6 +49,6 @@ CloudResetPwdAgent is distributed under the terms of the Apache License, Version
 Contact & Contribute
 --------------------
 
-For information on how to contribute to CloudResetPwdAgent, please feel free to contact with email or pull requests directly.
+For information on how to contribute to CloudResetPwdAgent, please feel free to contact me with email or pull requests directly.
 
 -- End of broadcast
