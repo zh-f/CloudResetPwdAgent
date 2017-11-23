@@ -44,7 +44,7 @@ http://cn-south-1-cloud-reset-pwd.obs.myhwclouds.com/linux/64/reset_pwd_agent/Cl
 Distributed license
 -------------------
 
-CloudResetPwdAgent is distributed under the terms of the Apache License, Version 2.0. The full terms and conditions of this license are detailed in the LICENSE file.
+CloudResetPwdAgent is distributed under the terms of the GNU General Public License v2.0. The full terms and conditions of this license are detailed in the LICENSE file.
 
 Contact & Contribute
 --------------------
