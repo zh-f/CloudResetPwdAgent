@@ -49,6 +49,6 @@ CloudResetPwdAgent is distributed under the terms of the GNU General Public Lice
 Contact & Contribute
 --------------------
 
-For information on how to contribute to CloudResetPwdAgent, please feel free to contact me with email or pull requests directly.
+For information on how to contribute to CloudResetPwdAgent, please feel free to contact me with email or send pull requests directly.
 
 -- End of broadcast
