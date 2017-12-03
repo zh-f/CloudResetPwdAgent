@@ -1,6 +1,6 @@
 # CloudResetPwdAgent README
 
-CloudResetPwdAgent for CloudOS (Windows and Linux) password resetting under OpenStack architecture, supporting a wide variety of virtualization technologies, including KVM, Xen, LXC, VMware, and more. 
+CloudResetPwdAgent is used for CloudOS (Windows and Linux) password resetting under OpenStack architecture, supporting a wide variety of virtualization technologies, including KVM, Xen, LXC, VMware, and more. 
 
 Encrypt and decrypt
 -------------------
