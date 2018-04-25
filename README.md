@@ -32,7 +32,7 @@ How to build the source code
 
 You can build it into jar and run it with JRE (Java Runtime Environment), also you can use the Java Service Wrapper makes it possible to install a Java Application as a Windows and Linux Service. Likewise, the scripts shipped with the Wrapper also make it very easy to install a Java Application as a Daemon process on Windows and Linux systems.
 
-Ps: You should modify the $OBS_Domain_URL.com to your owner address if you want to build it.
+Ps: You should modify the $OBS_Domain_URL.com to your owner OBS Domain URL address if you want to build it.
 
 How to download the binary file
 -------------------------------
