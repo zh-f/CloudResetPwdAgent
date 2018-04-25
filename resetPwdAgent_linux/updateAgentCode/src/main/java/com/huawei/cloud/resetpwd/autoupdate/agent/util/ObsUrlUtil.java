@@ -38,13 +38,13 @@ public class ObsUrlUtil{
 
         if("True".equals(isHEC)){
             logger.info("start to get HEC ObsUrl ...");
-            String regionObsUrl = "http://" +  region + "-" + bucket + ".obs." + region + ".myhwclouds.com";
+            String regionObsUrl = "http://" +  region + "-" + bucket + ".obs." + region + ".$OBS_Domain_URL.com";
             if(isOBSConnetion(regionObsUrl + ConfigInfo.REMOTE_VERSION_FILE)) {
                 logger.info("The accessed obsUrl is [{}]..........", obsUrl);
                 obsUrl = regionObsUrl;
                 return obsUrl;
             }else{
-                String defualtObsUrl = "http://" +  defualtRegion + "-" + bucket + ".obs." + defualtRegion + ".myhwclouds.com";
+                String defualtObsUrl = "http://" +  defualtRegion + "-" + bucket + ".obs." + defualtRegion + ".$OBS_Domain_URL.com";
                 if(isOBSConnetion(defualtObsUrl +ConfigInfo.REMOTE_VERSION_FILE)){
                     obsUrl = defualtObsUrl;
                     logger.info("The accessed obsUrl is [{}]..........", obsUrl);
