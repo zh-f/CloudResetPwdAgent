@@ -64,6 +64,36 @@ public class ObsUrlUtil {
 
     }
 
+        if ("True".equals(isCTC)) {
+            logger.info("start to get CTC ObsUrl ...");
+            String obsUrl1 = "http://" + region + "-" + bucket + ".obs." + region + ".$OBS_Domain_URL.com";
+            String obsUrl2 = "http://" + region + "-" + bucket + ".obs-" + region + ".$OBS_Domain_URL.com";
+            if (isOBSConnetion(obsUrl1 + ConfigInfo.REMOTE_VERSION_FILE)) {
+                obsUrl = obsUrl1;
+                logger.info("The accessed obsUrl is " + obsUrl);
+                return obsUrl;
+            } else if (isOBSConnetion(obsUrl2 + ConfigInfo.REMOTE_VERSION_FILE)) {
+                obsUrl = obsUrl2;
+                logger.info("The accessed obsUrl is " + obsUrl);
+                return obsUrl;
+            } else {
+                String defualtObsUrl1 = "http://" + defualtRegion + "-" + bucket + ".obs." + defualtRegion + ".$OBS_Domain_URL.com";
+                String defualtObsUrl2 = "http://" + defualtRegion + "-" + bucket + ".obs-" + defualtRegion + ".$OBS_Domain_URL.com";
+                if (isOBSConnetion(defualtObsUrl1 + ConfigInfo.REMOTE_VERSION_FILE)) {
+                    obsUrl = defualtObsUrl1;
+                    logger.info("The accessed obsUrl is " + obsUrl);
+                    return obsUrl;
+                } else if (isOBSConnetion(defualtObsUrl2 + ConfigInfo.REMOTE_VERSION_FILE)) {
+                    obsUrl = defualtObsUrl2;
+                    logger.info("The accessed obsUrl is " + obsUrl);
+                    return obsUrl;
+                } else {
+                    logger.info("URL access failed ...");
+                    obsUrl = null;
+                }
+            }
+        }
+
     private static String getRegion() {
 
         logger.info("start to get RegionName ...");
