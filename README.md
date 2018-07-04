@@ -20,12 +20,12 @@ https://wrapper.tanukisoftware.com/doc/english/download.jsp
 Grabbing the latest source code
 -------------------------------
 
-https://github.com/Huawei/CloudResetPwdAgent
+https://github.com/huaweicloud/CloudResetPwdAgent
 
 Downloading latest versions
 ---------------------------
 
-https://github.com/Huawei/CloudResetPwdAgent/archive/master.zip
+https://github.com/huaweicloud/CloudResetPwdAgent/archive/master.zip
 
 How to build the source code
 ----------------------------
